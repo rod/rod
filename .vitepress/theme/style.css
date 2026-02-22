@@ -397,6 +397,11 @@ a:hover {
   color: var(--c-muted);
 }
 
+.footer-links {
+  display: flex;
+  gap: var(--space-sm);
+}
+
 .footer-link {
   font-size: 0.6875rem;
   font-weight: 700;
