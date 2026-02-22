@@ -4,7 +4,7 @@ import { useData, useRoute, Content, withBase } from 'vitepress'
 const { frontmatter } = useData()
 const route = useRoute()
 
-const isPost = route.path.startsWith('/blog/posts/')
+const isPost = route.path.startsWith(withBase('/blog/posts/'))
 </script>
 
 <template>

@@ -3,14 +3,14 @@
   <head>
     <meta charset="utf-8">
     <title>Redirecting to article</title>
-    <meta http-equiv="refresh" content="0; url=/blog/posts/2024-03-20-on-simplicity.html">
-    <link rel="canonical" href="/blog/posts/2024-03-20-on-simplicity.html">
+    <meta http-equiv="refresh" content="0; url=2024-03-20-on-simplicity.html">
+    <link rel="canonical" href="2024-03-20-on-simplicity.html">
   </head>
   <body>
-    <script>location.replace('/blog/posts/2024-03-20-on-simplicity.html');</script>
+    <script>location.replace('2024-03-20-on-simplicity.html');</script>
     <p>
       Redirecting to the article.
-      <a href="/blog/posts/2024-03-20-on-simplicity.html">Continue if not redirected automatically.</a>
+      <a href="2024-03-20-on-simplicity.html">Continue if not redirected automatically.</a>
     </p>
   </body>
 </html>

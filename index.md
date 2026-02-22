@@ -13,12 +13,13 @@ Software. Writing. Notes.
 
 <script setup>
 import { data as posts } from './blog/posts.data.ts'
+import { withBase } from 'vitepress'
 const recent = posts.slice(0, 3)
 </script>
 
 <ul class="recent-posts" role="list">
   <li v-for="post in recent" :key="post.url" class="recent-posts__item">
-    <a :href="post.url">{{ post.title }}</a>
+    <a :href="withBase(post.url)">{{ post.title }}</a>
     <time :datetime="new Date(post.date.time).toISOString()"> — {{ post.date.string }}</time>
   </li>
 </ul>
