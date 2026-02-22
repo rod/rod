@@ -45,8 +45,12 @@ const isPost = route.path.startsWith('/blog/posts/')
     <footer class="site-footer" role="contentinfo">
       <div class="site-footer__inner">
         <span class="footer-copy">&copy; {{ new Date().getFullYear() }} Rod</span>
-        <a class="footer-link" href="https://github.com/rod" rel="noopener noreferrer" target="_blank"
-          aria-label="GitHub profile (opens in new tab)">GitHub</a>
+        <div class="footer-links">
+          <a class="footer-link" href="https://www.instagram.com/oddroddd" rel="noopener noreferrer" target="_blank"
+            aria-label="Instagram profile (opens in new tab)">Instagram</a>
+          <a class="footer-link" href="https://github.com/rod" rel="noopener noreferrer" target="_blank"
+            aria-label="GitHub profile (opens in new tab)">GitHub</a>
+        </div>
       </div>
     </footer>
   </div>
