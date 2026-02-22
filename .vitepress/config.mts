@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: 'Rod',
   description: 'Software. Writing. Notes.',
-  base: '/rod/',
+  base: '/',
   cleanUrls: true,
   srcExclude: ['README.md'],
   head: [
