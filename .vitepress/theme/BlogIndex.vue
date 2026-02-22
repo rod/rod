@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import { withBase } from 'vitepress'
+
 defineProps<{
   posts: {
     title: string
@@ -18,7 +20,7 @@ defineProps<{
             {{ post.date.string }}
           </time>
           <h2 class="post-card__title">
-            <a class="post-card__link" :href="post.url">{{ post.title }}</a>
+            <a class="post-card__link" :href="withBase(post.url)">{{ post.title }}</a>
           </h2>
           <p v-if="post.description" class="post-card__excerpt">{{ post.description }}</p>
         </article>
